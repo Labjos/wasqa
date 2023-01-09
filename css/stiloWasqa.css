@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    background-color: #2E4053;
+    font-family:'Wire One', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+}
+#cabecera {
+    display: flex;
+    width: 100vw;
+    height: 27vh;
+    justify-content:  center;
+    align-items: center;
+    border-bottom: 2px  solid #ffffff;
+}
+#logo {
+    width: 360px;
+}
+#localizador {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+    margin-left: 100px;
+}
+#menu li {
+    width: 140PX;
+    height: 140PX;
+    background-color: #566573;
+    text-decoration: none;
+    list-style-type: none;
+}
+#menu li a {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    background-color: #566573;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 15px;
+    
+}
+#menu li a:hover {
+    color: #FFA000 ;
+}
+#presentacion {
+    width: 100vw;
+    height: 60vh;
+    background-color: burlywood;
+    border-bottom: 2px  solid #ffffff;
+}
+#secciones {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 55vh;
+    background-color: #566573;
+    border-bottom: 2px  solid #ffffff;
+}
+#seccion {
+    display: flex;
+    width: 30vw;
+    height: 45vh;
+    margin-top: 50px;
+}
+.blue {
+    width: 3vw;
+    height: 45vh;
+    background-color: #0699fa;
+}
+.textoSeccion {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+footer {
+    width: 100vw;
+    height: 45vh;
+    background-color: #2E4053;
+}
+#logoPie {
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.textoPie {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px;
+    margin-left: 100px;
+
+}
