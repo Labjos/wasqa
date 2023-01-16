@@ -37,8 +37,8 @@
 #menu li a {
     text-decoration: none;
     list-style-type: none;
-    float: left;
     background-color: #566573;
+    float: left;
     font-weight: 600;
     margin-top: 50px;
     margin-left: 15px;
@@ -47,6 +47,7 @@
 #menu li a:hover {
     color: #FFA000 ;
 }
+
 #presentacion {
     width: 100vw;
     height: 60vh;
@@ -94,5 +95,4 @@ footer {
     font-weight: 100;
     padding: 10px;
     margin-left: 100px;
-
 }
