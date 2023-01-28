@@ -1,6 +1,5 @@
 * {
     margin: 0;
-    background-color: #2E4053;
     font-family:'Wire One', sans-serif;
     color: #ffffff;
     font-size: 35px;
@@ -8,63 +7,85 @@
 #cabecera {
     display: flex;
     width: 100vw;
-    height: 27vh;
+    height: 25vh;
+    background-color: #2E4053;
     justify-content:  center;
     align-items: center;
     border-bottom: 2px  solid #ffffff;
 }
 #logo {
-    width: 360px;
+    width: 300px;
 }
 #localizador {
-    font-size: 80px;
-    margin-top: 20px;
-    margin-left: 90px;
+    width: 17vw;
+    height: 10vh;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 120px;
 }
 #menu {
     display: flex;
+    padding: 0px;
     justify-content: space-around;
-    width: 33%;
-    margin-left: 100px;
+    width: 40%;
 }
 #menu li {
+    display: flex;
     width: 140PX;
     height: 140PX;
     background-color: #566573;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     list-style-type: none;
+    cursor: pointer;
+    transition: all 600ms ease;
 }
-#menu li a {
+#menu li:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(255,255,255,1) ;
+    background-color: #0699fa;
+}
+#menu li a{
     text-decoration: none;
     list-style-type: none;
-    background-color: #566573;
+    padding: 0px;
     float: left;
     font-weight: 600;
-    margin-top: 50px;
-    margin-left: 15px;
+}
+#menu li:hover a{
+    transform: scale(1.1);
+    color: #FFA000;
     
+    transition: all 200ms ease;
 }
-#menu li a:hover {
-    color: #FFA000 ;
-}
-
 #presentacion {
+    display: flex;
+    background-color: #2E4053;
     width: 100vw;
     height: 60vh;
-    background-color: burlywood;
     border-bottom: 2px  solid #ffffff;
+}
+#presA {
+    width: 50vw;
+    height: 60vh;
+    background-color:#FFA000;
+}
+#presB {
+    width: 50vw;
+    height: 60vh;
+    background-color: #0699fa;
 }
 #secciones {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
     height: 55vh;
-    background-color: #566573;
     border-bottom: 2px  solid #ffffff;
 }
 #seccion {
-    display: flex;
-    width: 30vw;
+    width: 70vw;
     height: 45vh;
     margin-top: 50px;
 }
@@ -75,9 +96,82 @@
 }
 .textoSeccion {
     font-size: 45px;
+    background-color: #566573;
     font-weight: 600;
     margin-top: 20px;
+    margin-left: 30px;
+}
+#colaboracion {
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    border-bottom: 2px  solid #ffffff;
+}
+.blueDos {
+    width: 3vw;
+    height: 45vh;
+    background-color: #0699fa;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+#seccionFoto{
+    width: 75vw;
+    height: 45vh;
+    background-color: #566573;
+    margin-top: 50px;
+}
+#textoFotografo {
+    width: 55vw;
+    height: 16vh;
+    background-color: #566573;
+    padding: 20px;
+    text-align: justify;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
     margin-left: 300px;
+}
+#fotoNacho{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#zonaContacto {
+    display: flex;
+    background-color: #2E4053;
+    width: 100vw;
+    height: 60vh;
+    border-bottom: 2px  solid #ffffff;
+}
+#fotoCafe{
+    width: 240px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+#textoNeon {
+    width: 17vw;
+    height: 10vh;
+    font-family:'Wire One', sans-serif;
+    color: #fce306;
+    font-size: 90px;
+    margin-top: 10px;
+    margin-left: 120px;
+    animation: neon 2s infinite alternate;
+}
+@keyframes neon {
+    0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100% {
+        text-shadow: 9px 9px 18px #f1e14a,
+                     3px 3px 5px #f8b703,
+                     -3px -3px 5px #0ef7eb,
+                     -9px -9px 27px #78fae9; 
+    } 
+    10%, 20%, 60% {
+        text-shadow: none;
+    }
 }
 footer {
     width: 100vw;
@@ -86,13 +180,13 @@ footer {
 }
 #logoPie {
     width: 300px;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-left: 80px;
 }
 .textoPie {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    padding: 10px;
+    font-size: 27px;
+    font-weight: 300;
+    padding: 5px;
+    margin-top: 10px;
     margin-left: 100px;
 }
